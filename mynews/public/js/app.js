@@ -49661,9 +49661,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/ec2-user/environment/mynews/resources/assets/js/app.js */"./resources/assets/js/app.js");
-__webpack_require__(/*! /home/ec2-user/environment/mynews/resources/assets/sass/app.scss */"./resources/assets/sass/app.scss");
-module.exports = __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/assets/sass/profile.scss */"./resources/assets/sass/profile.scss");
+__webpack_require__(/*! /home/ec2-user/environment/my-news/mynews/resources/assets/js/app.js */"./resources/assets/js/app.js");
+__webpack_require__(/*! /home/ec2-user/environment/my-news/mynews/resources/assets/sass/app.scss */"./resources/assets/sass/app.scss");
+module.exports = __webpack_require__(/*! /home/ec2-user/environment/my-news/mynews/resources/assets/sass/profile.scss */"./resources/assets/sass/profile.scss");
 
 
 /***/ })

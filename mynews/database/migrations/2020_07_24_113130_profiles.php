@@ -4,17 +4,17 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProfileTable extends Migration
+class Profiles extends Migration
 {
     /**
      * Run the migrations.
      *
      * @return void
      */
-     // title と body と image_path を追記
     public function up()
     {
-        Schema::create('profile', function (Blueprint $table) {
+        //
+        Schema::create('profiles', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name'); // プロフィールの名前を保存するカラム
             $table->string('gender');  // プロフィールの性別を保存するカラム
@@ -32,6 +32,6 @@ class CreateProfileTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('profile');
+        //
     }
 }
