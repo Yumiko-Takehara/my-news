@@ -41,9 +41,7 @@
                             <textarea class="form-control" name="introduction" rows="20">{{ old('introduction') }}</textarea>
                         </div>
                     </div>
-                  $profile_form->body }}</textarea>
-                        </div>
-                    </div>
+
                      <div class="form-group row">
                         <label class="col-md-2" for="image">画像</label>
                         <div class="col-md-10">
@@ -76,9 +74,9 @@
                     <div class="col-md-4 mx-auto">
                         <h2>編集履歴</h2>
                         <ul class="list-group">
-                            @if ($profile_form->profile_histories != NULL)
-                                @foreach ($profile_form->profile_histories as $ProfileHistory)
-                                    <li class="list-group-item">{{ $ProfileHistory->edited_at }}</li>
+                            @if ($profile_form->histories != NULL)
+                                @foreach ($profile_form->histories as $history)
+                                    <li class="list-group-item">{{ $history->edited_at }}</li>
                                 @endforeach
                             @endif
                         </ul>
